@@ -117,7 +117,7 @@ class _MyAppState extends State<MyApp> {
                                       setState(() {});
                                     },
                                     onTapSub: (price, productId) {
-                                      totalPrice = totalPrice + price;
+                                      totalPrice = totalPrice - price;
                                       productCount--;
                                       for (int i = 0;
                                           i < model!.product!.length;
